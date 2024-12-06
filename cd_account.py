@@ -18,7 +18,7 @@ def create_cd_account(balance, interest_rate, months):
     my_cd_account = Account(balance, 0)
 
     # Calculate interest earned
-    cd_interest_earned = balance * interest_rate * months/12
+    cd_interest_earned = balance * interest_rate * months / 12
 
     # Update the CD account balance by adding the interest earned
     balance += cd_interest_earned
