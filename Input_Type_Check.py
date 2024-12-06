@@ -1,5 +1,6 @@
 
 
+
 def is_input_the_type(input, input_type):
     if input_type is float:
         try:
